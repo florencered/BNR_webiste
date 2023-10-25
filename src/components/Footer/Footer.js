@@ -26,18 +26,18 @@ const Footer = () => {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4 text-center'> 
             <h6 className='text-uppercase fw-bold mb-4 '>Connect with us</h6> 
             
-            <a href='' className='me-4 ml-2 text-reset'>
+            <a href='https://twitter.com/BuildnRun_' className='me-4 ml-2 text-reset'>
             <MDBIcon fab icon="twitter" />
           </a>
             
             
-            <a href='' className='me-4 text-reset'>
+            <a href='https://instagram.com/buildnrun' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
             
 
             
-            <a href='' className='me-4 text-reset'>
+            <a href='https://www.linkedin.com/company/buildnrun' className='me-4 text-reset'>
             <MDBIcon fab icon="linkedin" />
           </a> 
           <p className='mt-3'>Terms of Service | Privacy Policy </p>
