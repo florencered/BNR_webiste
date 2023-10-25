@@ -1,0 +1,62 @@
+.heading{
+    margin-bottom: 1.5rem; 
+    margin-top: 2rem;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #4b4b4b; 
+  text-align: center;
+}  
+
+  
+
+
+  .mySwiper{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    background: radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 6px,
+        transparent 6px
+      )
+      0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 6px, transparent 6px)
+      100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 6px, transparent 6px)
+      0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 6px, transparent 6px) 100%
+      100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 4px)
+      calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 16px)
+      calc(100% - 4px) no-repeat,
+    linear-gradient(161deg, #37b7fe 0%, #fbb500 46%);
+height:30rem; 
+width:30rem; 
+color: #4b4b4b!important;
+  }   
+  .text{
+    color:black;
+  } 
+  @media screen and (max-width: 600px){ 
+    .mySwiper{
+      height: 23rem; 
+      width: 22rem; 
+
+    }  
+    .text{
+      font-size: 15px!important; 
+      color: black;
+    } 
+    .button{
+      font-size:10px !important; 
+      width: 10rem; 
+      
+    }
+
+  }

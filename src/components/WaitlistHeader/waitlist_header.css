@@ -1,0 +1,14 @@
+.item:hover{ 
+    color:#011369; 
+    
+  transition: .3s ease-out;
+  border-bottom:2px solid #011369
+
+} 
+.button:hover{
+  background-color:transparent !important;
+border: 2px solid #011369 !important;
+/* border: 2px solid #37B7FE; */
+transition: 0.3s ease-out !important;
+color: #011369 !important;
+} 

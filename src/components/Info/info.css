@@ -1,0 +1,35 @@
+html,body{
+  overflow-x: hidden;
+  overflow-y: auto;
+} 
+.heading{
+    margin-bottom: 1.5rem; 
+    margin-top: 2rem;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #4b4b4b; 
+  text-align: center;
+} 
+.card{
+  background-color: #d9e9f1 !important;
+} 
+.card-img{
+  height: 300px; 
+  width: 500px; 
+  
+} 
+.even-card{
+  /* margin-right: 15rem !important;   */
+  overflow-x: hidden !important;  
+
+
+ 
+} 
+.fit{
+  width:600px !important; 
+  background-color: red !important;
+} 
+.first{
+  padding-right: 4.5rem !important; 
+}
